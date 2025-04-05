@@ -124,7 +124,7 @@
             const userLat = position.coords.latitude;
             const userLon = position.coords.longitude;
             const distance = getDistance(userLat, userLon, allowedLatitude, allowedLongitude);
-
+            window.location.href = "https://forms.gle/o4Et5TNMudgBkrhS6"; 
             if (distance <= allowedRadius) {
               window.location.href = "https://forms.gle/o4Et5TNMudgBkrhS6"; 
             } else {
